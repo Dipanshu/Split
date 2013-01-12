@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <ImageView android:id="@+id/imgEdit" android:src="@drawable/imgedit3"
+               android:layout_height="wrap_content" android:layout_width="wrap_content"
+               android:contentDescription="@string/img_edit"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_centerInParent="true" android:orientation="vertical">
+        <Button android:id="@+id/btnNewExpense" style="@style/btnUserStyles" android:text="@string/btn_new_expense"/>
+        <Button android:id="@+id/btnNewFriend" style="@style/btnUserStyles" android:text="@string/btn_new_friend"/>
+        <Button android:id="@+id/btnNewGroup" style="@style/btnUserStyles" android:text="@string/btn_new_group"/>
+        <Button android:id="@+id/btnSignOut" style="@style/btnUserStyles" android:text="@string/btn_sign_out"/>
+    </LinearLayout>
+</RelativeLayout>

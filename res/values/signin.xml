@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_new_expense">+ New Expense</string>
+    <string name="btn_new_friend">+ New Friend</string>
+    <string name="btn_new_group">+ New Group</string>
+    <string name="btn_sign_out">- Sign Out</string>
+    <string name="img_edit">Edit Profile</string>
+</resources>

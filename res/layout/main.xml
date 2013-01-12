@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<ScrollView xmlns:android='http://schemas.android.com/apk/res/android'
+            android:layout_width='wrap_content' android:layout_height='wrap_content'>
+    <RelativeLayout android:layout_width='fill_parent' android:layout_height='wrap_content'>
+
+        <TextView android:id='@+id/tvId' style='@style/size'
+                  android:text='@string/label_id' android:layout_margin='5dp'/>
+
+        <EditText android:id='@+id/etId' style='@style/margins.size.black'
+                  android:inputType='text' android:padding='15dp' android:layout_below='@id/tvId'/>
+
+        <TextView android:id='@+id/tvPass' style='@style/size'
+                  android:text='@string/label_pass' android:layout_margin='5dp' android:layout_below='@id/etId'/>
+
+        <EditText android:id='@+id/etPass' style='@style/margins.size.black'
+                  android:inputType='textPassword' android:padding='15dp' android:layout_below='@id/tvPass'/>
+
+        <Button android:id='@+id/btnSignIn' style='@style/margins.size.black'
+                android:text='@string/btn_sign_in' android:layout_below='@id/etPass'/>
+
+        <Button android:id='@+id/btnSignUp' style='@style/margins.size.black'
+                android:text='@string/btn_sign_up' android:layout_below='@id/btnSignIn'/>
+
+        <Button android:id='@+id/btnTheme' style='@style/margins.size.black'
+                android:text='@string/btn_theme' android:layout_below='@id/btnSignUp'/>
+
+        <Button android:id='@+id/btnExit' style='@style/margins.size.black'
+                android:text='@string/btn_exit' android:layout_below='@id/btnTheme'/>
+
+        <Button android:id='@+id/btnDocs' style='@style/margins.size.black'
+                android:text='@string/btn_docs' android:layout_below='@id/btnExit'/>
+    </RelativeLayout>
+</ScrollView>

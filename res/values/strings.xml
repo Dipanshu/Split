@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SplitEx</string>
+    <string name="label_id">User Id</string>
+    <string name="label_pass">Password</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="btn_sign_up">Create Offline Id</string>
+    <string name="btn_theme">Change Theme</string>
+    <string name="btn_exit">Exit SplitEx</string>
+    <string name="btn_docs">See Documentations</string>
+</resources>

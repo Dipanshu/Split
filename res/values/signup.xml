@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="signup_label">Create New Id</string>
+    <string name="userid_label">Type Desire Id</string>
+    <string name="pass_label">Type Password</string>
+    <string name="confirm_label">Confirm Password</string>
+    <string name="create_label">Create Id</string>
+</resources>

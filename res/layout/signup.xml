@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/tvSignupLabel" style="@style/tvStyles" android:text="@string/signup_label"/>
+
+        <Button android:id="@+id/btnBar" android:layout_below="@id/tvSignupLabel" style="@style/btnBarStyles"/>
+        <TextView android:id="@+id/tvUserIdLabel" style="@style/tvStyles"
+                  android:layout_below="@id/btnBar" android:text="@string/userid_label"/>
+        <EditText android:id="@+id/etId" style="@style/etStyles"
+                  android:layout_below="@id/tvUserIdLabel" android:inputType="text"/>
+
+        <Button android:id="@+id/btnBar2" android:layout_below="@id/etId" style="@style/btnBarStyles"/>
+        <TextView android:id="@+id/tvPassLabel" style="@style/tvStyles"
+                  android:layout_below="@id/btnBar2" android:text="@string/pass_label"/>
+        <EditText android:id="@+id/etPass" style="@style/etStyles"
+                  android:layout_below="@id/tvPassLabel" android:inputType="textPassword"/>
+
+        <Button android:id="@+id/btnBar3" android:layout_below="@id/etPass" style="@style/btnBarStyles"/>
+        <TextView android:id="@+id/tvConfirm" style="@style/tvStyles"
+                  android:layout_below="@id/btnBar3" android:text="@string/confirm_label"/>
+        <EditText android:id="@+id/etConfirm" style="@style/etStyles"
+                  android:layout_below="@id/tvConfirm" android:inputType="textPassword"/>
+
+        <Button android:id="@+id/btnCreate" style="@style/btnStyles"
+                android:layout_below="@id/etConfirm" android:text="@string/create_label"/>
+    </RelativeLayout>
+</ScrollView>
